@@ -4,10 +4,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>TIFA DESIGN</title>
+        <title>TIFA YIN</title>
         <meta name="description" content="TIFA ">
         <link rel="stylesheet" href="main.css">
-        <!--<link rel="stylesheet" href="contact.css">-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <script type="text/javascript" src="js/modernizr.custom.29473.js"></script>
         
         <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
         <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
@@ -17,13 +19,13 @@
                $(document).ready(function(){
                $('#nav').localScroll(800);
                $('#front').localScroll(800);
-	           $('#intro').parallax("50%", 0.05);
-	           $('#about').parallax("50%", 0.05);
-	           $('#my-work').parallax("50%", 0.05);
-	           $('#contact').parallax("50%", 0.05);
+	           $('#about').parallax("50%", 0.5);
+	           $('#ui').parallax("50%", 0.05);
+	           $('#graph').parallax("50%", 0.05);
+	           $('#illustrate').parallax("50%", 0.05);
+               $('#contact').parallax("50%", 0.05);
                                    /*水平位置 滾動速度*/  
-                
-
+            
 })
         </script>
     </head>
@@ -32,71 +34,88 @@
         <div id="wrapper">
         
         <header>
-            
-            
-        </header>
-       
         <div id="nav">
 				<ul>
-					<li>
-						<a href="#intro">home</a>
-					</li>
-					<li>					
-						<a href="#about">about</a>
-					</li>
-					<li>					
-						<a href="#my-work">works</a>
-					</li>
-					<li>					
-						<a href="#contact">contact</a>
-					</li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#ui">UI DESIGN</a></li>
+					<li><a href="#graph">GRAPHIC DESIGN</a></li>
+                    <li><a href="#illustrate">ILLUSTRATION</a></li>
+					<li><a href="#contact">contact</a></li>
 				</ul>
-			</div>
-			
-			<!--<div id="content">-->
-                <div id="front">
+        </div>
+        </header>
+       
+        <div id="front">
 				<img id="front-girl" src="img/me.png" width="300" height="420" />
                 <img id="front-desk" src="img/table.png" width=100% height="80" />
-			    </div>
+        </div>
             
-            
-                <div id="intro">
-					
+           <!--ABOUT-->
+                <div id="about">	
 				    <h1>HELLO</h1>
 					<p>I am Hui Lan Yin.</p>
                     <p>You can call me Tifa :) </p>
                     <p>I am come from Taiwan, 22 years old.</p>
-
-					
-				</div>
-                
-                <div id="about">
-					
-					<h1>ABOUT</h1>
-					
-                    <a href="http://issuu.com/60796/docs/cv-tifa" target="_blank"><span>MY CV</span></a>
+                     <a href="http://issuu.com/60796/docs/cv-tifa" target="_blank"><span> >>>  MY CV</span></a>
                     <p></p>
-                    <a href="http://issuu.com/60796/docs/huilanyin" target="_blank"><span>MY PORTFOLIO</span></a>
-                    
+                    <a href="http://issuu.com/60796/docs/huilanyin" target="_blank"><span> >>>  MY PORTFOLIO</span></a>
+                    <p>Nice to meet you!</p>
 				</div>
-                
-                <div id="my-work">
+            
+            
+            <!--UI-->    
+                <div id="ui">
 					
-				    <h1>MY WORK</h1>
-                    <div id="my-work-in">
-                <ul>  
-				<li><img src="img/pezoo-app-ui-01.png" /></li>
-				<li><img src="img/pezoo-app-ui-02.png" /></li>
-				<li><img src="img/pezoo-app-ui-03.png" /></li>
-				<li><img src="img/pezoo-app-ui-04.png" /></li>
-				<li><img src="img/pezoo-app-ui-05.png" /></li>
-				<li><img src="img/pezoo-web-ui_flow.png" /></li>
-       
-				</ul>
-                        
-                        </div>
-            </div>
+                    <div id="ui-in" >
+                    <ul>
+					<li><a Target="_new" href="pezoo-app.pdf"><img src="img/pezooapp-01.png" /></a></li>
+                    <li><a Target="_new" href="pezoo-web.pdf"><img src="img/pezooweb_1.png" /></a></li>				
+				    </ul>
+                    </div>
+				</div>
+            
+            
+            <!--GRAPH-->    
+            <div id="graph">
+					
+                <div id="graph-in" >
+                    <ul>
+					<li><img src="img/g-1.png" /></li>
+                    <li><a Target="_new" href="mark's.pdf"><img src="img/g-3.png" /></a></li>	
+                    <li><img src="img/g-2.png" /></li>	
+				    </ul>
+                    </div>
                 
+            </div>
+            
+            
+            
+             <!--illustration-->    
+                <div id="illustrate">
+					<div id="illustrate-in" >
+                    <ul>
+					<li><img src="img/san-1.jpg" /></a></li>
+                    <li><img src="img/san-2.jpg" /></a></li>	
+                    <li><img src="img/san-3.jpg" /></a></li>	
+                    <li><img src="img/san-4.jpg" /></a></li>	
+                    <li><img src="img/san-5.jpg" /></a></li>	
+                        
+                    <li  class="girl"><img src="img/girl-01.jpg" /></li>
+                    <li  class="girl"><img src="img/girl-02.jpg" /></li>
+                    <li  class="girl"><img src="img/girl-03.jpg" /></li>
+                    <li  class="girl"><img src="img/girl-04.jpg" /></li>
+                    <li  class="girl"><img src="img/girl-05.jpg" /></li>
+                 
+                    <!--<li><a class="girl" Target="_new" href=""><img src="img/girl-05.jpg" /></a></li>-->
+				    </ul>
+                        
+                        
+                    
+                    </div>
+				</div>  
+            
+            
+            <!--contact-->    
                 <div id="contact">
 					
 				    <h1>CONTACT</h1>
